@@ -7,9 +7,14 @@ Featutres :-
 
 ## ScreenShots 
 
+![](qrfron.jpg)
+![](qrback.jpg)
+
     <img src="qrfron.png" alt="Qr">
     <img src="qrback.png" alt="Qr">
 
 ### Api Link : - 
-    qr-code link = ("https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=%22vim%22")
+
+    Qr-Image-Api: [Api ](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=%22vim%22)
+
 
