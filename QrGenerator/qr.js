@@ -11,7 +11,7 @@ const downloadEl = document.querySelector(".download-image");
 
 submitEl.addEventListener("click",()=>{
     if(input.value.length > 0) {
-        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=%22vim%22"; 
+        const qrUrl = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="  + encodeURIComponent(input.value); 
         imgEl.src = qrUrl;
 
         imgEl.onload = () => {
